@@ -60,7 +60,7 @@ body {
 
 .sora {
     position: absolute;
-    top: 350px;
+    top: 300px;
     left: 70px;
     z-index: 9;
     width: 1000px;
@@ -126,42 +126,6 @@ body {
 }
 
 
-nav {
-    height: 120px;
-    background-color: #000;
-    border: 2px solid #fff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 9;
-    box-sizing: border-box;
-}
-
-nav h1 {
-    position: absolute;
-    font-family: 'Athelas', 'Baskerville', 'Charter', 'Georgia', sans-serif;
-    color: #fff;
-    font-size: 68px;
-}
-
-nav ul {
-    position: relative;
-    left: 315px;
-    list-style: none;
-    display: block;
-    z-index: 3;
-    position: relative;
-    color: #fff;
-}
-
-nav li {
-
-    font-size: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 .shape {
     position: absolute;
     width: 0;
@@ -217,9 +181,9 @@ nav li {
 
 .movie img {
     position: absolute;
-    width: 300px;
-    top: 540px;
-    right: 405px;
+    width: 280px;
+    top: 405px;
+    right: 525px;
     z-index: 6;
     opacity: 0.8;
 
@@ -238,8 +202,8 @@ nav li {
 
 .movie h1 {
     font-weight: 400;
-    margin-left: 130px;
-    margin-top: 520px;
+    margin-left: 120px;
+    margin-top: 400px;
     font-size: 100px;
     color: white;
     z-index: 7;
@@ -250,7 +214,7 @@ nav li {
 .movie h2 {
     font-weight: 750;
     color: #fff;
-    margin-left: 330px;
+    margin-left: 320px;
     font-size: 175px;
     z-index: 7;
     position: relative;
@@ -448,7 +412,7 @@ nav a {
 
 .the {
     position: absolute;
-    top: 1440px;
+    top: 1000px;
     width: 100%;
 }
 
