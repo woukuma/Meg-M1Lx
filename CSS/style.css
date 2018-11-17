@@ -10,6 +10,16 @@ body {
 
 }
 
+.back{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 1440px;
+    height: 200px;
+    z-index: 6;
+    background: linear-gradient(#202020,#D3D3D3);
+}
+
 .black {
     position: absolute;
     top: -500px;
@@ -228,7 +238,7 @@ nav li {
 
 .movie h1 {
     font-weight: 400;
-    margin-left: 320px;
+    margin-left: 130px;
     margin-top: 520px;
     font-size: 100px;
     color: white;
@@ -240,7 +250,7 @@ nav li {
 .movie h2 {
     font-weight: 750;
     color: #fff;
-    margin-left: 520px;
+    margin-left: 330px;
     font-size: 175px;
     z-index: 7;
     position: relative;
@@ -264,7 +274,6 @@ nav li {
 .movie video {
     position: absolute;
     top: 0;
-    left: 0;
     margin: 0;
     padding: 0;
     z-index: 0;
@@ -322,9 +331,6 @@ nav li {
     position: relative;
 }
 
-.back {
-    margin-left: 400px;
-}
 
 .person {
     position: relative;
@@ -440,16 +446,18 @@ nav a {
 }
 
 
-.first {
-    position: relative;
-    margin-top: -20px;
+.the {
+    position: absolute;
+    top: 1440px;
     width: 100%;
 }
 
 #first{
     position: absolute;
-    top: 120px;
+    top: 0;
+    left: 0%;
     z-index: 4;
+    width: 90%;
     
 }
 
