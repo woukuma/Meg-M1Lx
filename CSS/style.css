@@ -6,19 +6,9 @@
 
 
 body {
-    background-color: #000;
-
+    background-color: black;
 }
 
-.back{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 1440px;
-    height: 200px;
-    z-index: 6;
-    background: linear-gradient(#202020,#D3D3D3);
-}
 
 .black {
     position: absolute;
@@ -108,7 +98,7 @@ body {
     width: 1000px;
     height: 500px;
     background-color: white;
-    margin:inherit;
+    margin: inherit;
 }
 
 .player1 img {
@@ -117,20 +107,13 @@ body {
 
 }
 
-#sidber {
-    position: absolute;
-    top: 1600px;
-    width: 700px;
-    height: 400px;
-    background-color: white;
-}
 
 
 .shape {
     position: absolute;
     width: 0;
     height: 0;
-    border-left: 1000px solid black;
+    border-left: 1440px solid black;
     border-bottom: 600px solid transparent;
     z-index: 7;
 }
@@ -146,44 +129,13 @@ body {
     z-index: 7;
 }
 
-.shape2 {
-    position: absolute;
-    top: 810px;
-    left: 0;
-    height: 0;
-    width: 0;
-    z-index: 7;
-    color: #000;
-    border-top: 810px solid transparent;
-    border-left: 750px solid;
-}
 
-.shape3 {
-    position: absolute;
-    top: 1000px;
-    right: 0;
-    z-index: 7;
-    color: #000;
-    border-top: 700px solid transparent;
-    border-right: 1000px solid;
-}
-
-.shape4 {
-    position: absolute;
-    top: 1615px;
-    right: 0;
-    z-index: 7;
-    color: #000;
-    border-bottom: 380px solid transparent;
-    border-right: 1060px solid;
-
-}
 
 .movie img {
     position: absolute;
     width: 280px;
-    top: 405px;
-    right: 525px;
+    top: 465px;
+    right: 430px;
     z-index: 6;
     opacity: 0.8;
 
@@ -197,13 +149,14 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
+    background-color: #000;
 }
 
 
 .movie h1 {
     font-weight: 400;
-    margin-left: 120px;
-    margin-top: 400px;
+    margin-left: 320px;
+    margin-top: 450px;
     font-size: 100px;
     color: white;
     z-index: 7;
@@ -214,7 +167,7 @@ body {
 .movie h2 {
     font-weight: 750;
     color: #fff;
-    margin-left: 320px;
+    margin-left: 520px;
     font-size: 175px;
     z-index: 7;
     position: relative;
@@ -244,42 +197,6 @@ body {
     width: 100%;
 }
 
-.main video {
-    position: relative;
-    z-index: 0;
-    width: 100%;
-    margin-top: -90px;
-}
-
-.person video {
-    position: relative;
-    width: 100%;
-    z-index: 0;
-    margin-top: -10px;
-}
-
-.cover-img3 {
-    position: absolute;
-    left: 0;
-    top: 1616px;
-    width: 100%;
-    height: 808px;
-    background: url(../movieCover.png);
-    text-align: center;
-    z-index: 6;
-}
-
-
-.cover-img2 {
-    position: absolute;
-    left: 0;
-    top: 810px;
-    width: 100%;
-    height: 808px;
-    background: url(../movieCover.png);
-    text-align: center;
-    z-index: 6;
-}
 
 .btn-link {
     color: #000;
@@ -296,24 +213,7 @@ body {
 }
 
 
-.person {
-    position: relative;
-    margin-top: -10px;
-    width: 100%;
-    height: 1500px;
-    background-color: black;
 
-}
-
-.all {
-    background-color: rgba(255, 255, 255, 1);
-    position: absolute;
-    left: 10%;
-    height: 1400px;
-    width: 90%;
-
-
-}
 
 #list {
     width: 100%;
@@ -340,92 +240,112 @@ nav a {
     padding: 10px;
 }
 
-.main h2 {
-    position: absolute;
-    top: 1100px;
-    left: 10%;
-    background-color: rgba(255, 255, 255, 0.3);
-    font-weight: 1000;
-    padding: 20px;
-    border: solid white 5px;
-    color: #fff;
-    font-size: 50px;
-    z-index: 4;
-}
-
-.fake {
-    position: absolute;
-    border-top:solid 120px black;
-    top: 880px;
-    left: 0;
-    z-index: 2;
-    width: 1440px;
-    height: 580px;
-    background: linear-gradient(#202020,#D3D3D3);
-}
-
-
-
-
-
-.b {
-    background-color: rgba(255, 255, 255, 0.5);
-    margin: 50px 30px 50px;
-}
-
-.a h1 {
-    padding-top: 100px;
-    margin-bottom: 50px;
-    font-size: 80px;
-    z-index: 3;
-    color: white;
-    border-bottom: solid 3px #fff;
-}
-
-
-.person2 {
-    height: 600px;
-    column-count: 2;
-    margin-bottom: 10px;
-    margin-top: 10px;
-
-}
-
-.person2 h2 {
-    font-size: 65px;
-    color: #000000;
-}
-
-
-.person2 li {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    padding: 5px 5px 5px 100px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    background: white;
-    line-height: 1.1;
-    z-index: 3;
-}
-
-
-.the {
-    position: absolute;
-    top: 1000px;
-    width: 100%;
-}
-
-#first{
+#first {
     position: absolute;
     top: 0;
     left: 0%;
     z-index: 4;
-    width: 90%;
-    
+    width: 100%;
+
 }
 
 
 ul {
     list-style: none;
+}
+
+.cir {
+    position: absolute;
+    top: 820px;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+.cir h1 {
+    color: black;
+    font-weight: 900;
+}
+
+
+.backg {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+    z-index: 1;
+}
+
+.white{
+    position: absolute;
+    top: 140px;
+    left: 340px;
+    width: 1000px;
+    height: 550px;
+    z-index: 2;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.gray{
+    position: absolute;
+    top: 110px;
+    left: 380px;
+    width: 990px;
+    height: 550px;
+    z-index: 2;
+    background-color: gray;
+}
+
+
+.gray img{
+    position: absolute;
+    top: 40px;
+    right: 45px;
+    height: 500px;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+
+.backg2 {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-color: #000;
+    z-index: 1;
+}
+
+.white2{
+    position: absolute;
+    top: 140px;
+    right: 240px;
+    width: 1100px;
+    height: 650px;
+    z-index: 2;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.gray2{
+    position: absolute;
+    top: 110px;
+    right: 280px;
+    width: 1090px;
+    height: 650px;
+    z-index: 2;
+    background-color: gray;
+}
+
+
+.gray2 img{
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    height: 600px;
+    z-index: 2;
+    opacity: 0.6s;
 }
