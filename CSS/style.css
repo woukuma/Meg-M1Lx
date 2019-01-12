@@ -259,7 +259,7 @@ ul {
 
 a {
     position: absolute;
-    top: 820px;
+    top: 930px;
     left: 50%;
     width: 70px;
     height: 70px;
@@ -268,6 +268,28 @@ a {
     z-index: 100;
     text-align: center;
 }
+
+.nav{
+    position: relative;
+    top: -50px;
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    border-bottom: 2px #fff solid;
+}
+
+.nac ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav li{
+    font-size: 30px;
+    margin: 0 50px 0 50px;
+    display: inline;
+}
+
 
 
 .backg {
