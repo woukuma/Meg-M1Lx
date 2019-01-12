@@ -366,8 +366,8 @@ a {
 .in {
     position: relative;
     margin: auto;
-    width: 68%;
-    height: 90%;
+    width: 80%;
+    height: 700px;
     padding-top: 30px;
     background-color: #c5c5c5;
 
@@ -376,12 +376,12 @@ a {
 .in p {
     position: relative;
     background-color: #fff;
-    width: 500px;
-    height: 120px;
+    width: 600px;
+    height: 80px;
     text-align: center;
     margin-left: 30px;
     padding: 10px;
-    font-size: 100px;
+    font-size: 65px;
     font-weight: 600;
     color: white;
     background-color: black;
@@ -392,8 +392,8 @@ a {
     position: absolute;
     top: 15px;
     left: 65px;
-    width: 500px;
-    height: 120px;
+    width: 600px;
+    height: 80px;
     background-color: #e5e5e5;
     z-index: 1;
 }
