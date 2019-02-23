@@ -304,6 +304,54 @@ ul {
     z-index: 3;
 }
 
+.shapeaplus {
+
+    position: absolute;
+    top: 1715px;
+    left: 1010px;
+    width: 0;
+    height: 0;
+    border-left: 400px solid #3e3e3e;
+    border-top: 80px solid transparent;
+    z-index: 5;
+}
+
+
+.shapeaplusb {
+
+    position: absolute;
+    top: 2612px;
+    left: 1010px;
+    width: 0;
+    height: 0;
+    border-left: 400px solid #e0e0e0;
+    border-top: 83px solid transparent;
+    z-index: 5;
+}
+
+
+.shapeaminus {
+    position: absolute;
+    top: 1795px;
+    left: 1010px;
+    width: 400px;
+    height: 1517px;
+    background-color: #3e3e3e;
+    z-index: 4;
+
+}
+
+.shapeaminusb {
+    position: absolute;
+    top: 2695px;
+    left: 1010px;
+    width: 400px;
+    height: 617px;
+    background-color: #e0e0e0;
+    z-index: 5;
+
+}
+
 .shapeb {
     position: absolute;
     top: 930px;
@@ -374,18 +422,21 @@ ul {
     position: relative;
     top: 100px;
     width: 100%;
-    height: 550px;
+    height: 565px;
     padding-top: 100px;
     background-color: #202020;
+    
 }
 
 .in {
     position: relative;
+    left: -205px;
     margin: auto;
-    width: 80%;
-    height: 515px;
+    width: 65%;
+    height: 500px;
     padding-top: 10px;
     background-color: #c5c5c5;
+
 
 }
 
@@ -460,8 +511,8 @@ ul {
 }
 
 .member li {
-    border-bottom: solid #1e366a 1px;
-    width: 400px;
+    border-bottom: solid #1e366a 1px; 
+    width: 330px;
     padding-left: 10px;
     margin-right: 75px;
 }
@@ -483,7 +534,7 @@ ul {
     position: relative;
     background-color: #000;
     width: 100%;
-    height: 1050px;
+    height: 910px;
     top: 25px;
     background-color: #c0c0c0;
 
@@ -500,9 +551,9 @@ ul {
 
 .flag p {
     position: relative;
-    height: 100px;
-    width: 600px;
-    font-size: 65px;
+    height: 90px;
+    width: 500px;
+    font-size: 55px;
     color: #000;
     background-color: #fff;
     font-weight: 500;
@@ -513,9 +564,11 @@ ul {
 }
 
 .backshape {
-    margin: auto;
-    width: 70%;
-    height: 700px;
+    position: relative;
+    left: 100px;
+    top: -40px;
+    width: 55%;
+    height: 565px;
     background-color: #202020;
     padding-top: 1px;
 
@@ -524,11 +577,11 @@ ul {
 
 #topline {
     position: absolute;
-    top: 340px;
-    left: 256px;
+    top: 39px;
+    left: 65px;
     margin-left: 30px;
     height: 2px;
-    width: 620px;
+    width: 490px;
     background-color: #000;
     z-index: 10;
 }
@@ -536,28 +589,28 @@ ul {
 
 #bottomline {
     position: absolute;
-    top: 420px;
-    left: 256px;
+    top: 110px;
+    left: 65px;
     margin-left: 30px;
     height: 2px;
-    width: 620px;
+    width: 490px;
     background-color: #000;
     z-index: 10;
 }
 
 #flag img {
     position: relative;
-    height: 500px;
-    left: 19rem;
+    height: 370px;
+    left: 16rem;
     top: 2rem;
 }
 
 .hide2 {
     position: absolute;
-    top: 310px;
-    left: 290px;
-    height: 100px;
-    width: 600px;
+    top: 5px;
+    left: 90px;
+    height: 90px;
+    width: 500px;
     background-color: #404040;
     margin: 5px 0px 0px 30px;
     z-index: 1;
@@ -569,15 +622,16 @@ ul {
     width: 300px;
     color: #fff;
     z-index: 3;
-    left: 680px;
+    left: 475px;
+    top: 20px;
 }
 
 .last {
     position: relative;
     background-color: #000;
     height: 30px;
-    width: 100%;
-    top: 1150px;
+    width: 75%;
+    top: 1020px;
 
 }
 
