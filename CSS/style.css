@@ -235,14 +235,6 @@ nav li {
     margin-top: 2px;
 }
 
-nav a {
-    font-size: 50px;
-    color: white;
-    z-index: 3;
-    display: block;
-    padding: 10px;
-}
-
 #first {
     position: absolute;
     top: 0;
@@ -263,7 +255,7 @@ ul {
     width: 90%;
     margin: auto;
     color: #fff;
-    border-bottom: 2px #fff solid;
+    border-bottom: 1px #fff solid;
 }
 
 .nav ul {
@@ -273,7 +265,6 @@ ul {
 }
 
 .nav li {
-    font-size: 30px;
     margin: 0 50px 0 50px;
     display: inline;
 }
@@ -281,7 +272,10 @@ ul {
 .nav a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+    z-index: 3;
+    display: block;
+    padding: 0px;
 }
 
 
@@ -296,7 +290,7 @@ ul {
 
 .shapea {
     position: absolute;
-    top: 1467px;
+    top: 1461px;
     width: 0;
     height: 0;
     border-left: 1440px solid #202020;
@@ -307,7 +301,7 @@ ul {
 .shapeaplus {
 
     position: absolute;
-    top: 1468px;
+    top: 1464px;
     left: 0px;
     width: 0;
     height: 0;
@@ -319,7 +313,7 @@ ul {
 .shapeaplusc {
 
     position: absolute;
-    top: 2400px;
+    top: 2396px;
     left: 0px;
     width: 0;
     height: 0;
@@ -344,7 +338,7 @@ ul {
 
 .shapeaminus {
     position: absolute;
-    top: 1550px;
+    top: 1546px;
     left: 0px;
     width: 400px;
     height: 850px;
@@ -437,7 +431,7 @@ ul {
     height: 565px;
     padding-top: 100px;
     background-color: #202020;
-    
+
 }
 
 .in {
@@ -523,7 +517,7 @@ ul {
 }
 
 .member li {
-    border-bottom: solid #1e366a 1px; 
+    border-bottom: solid #1e366a 1px;
     width: 330px;
     padding-left: 10px;
     margin-right: 75px;
