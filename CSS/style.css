@@ -307,13 +307,25 @@ ul {
 .shapeaplus {
 
     position: absolute;
-    top: 1715px;
-    left: 1010px;
+    top: 1468px;
+    left: 0px;
     width: 0;
     height: 0;
     border-left: 400px solid #3e3e3e;
-    border-top: 80px solid transparent;
-    z-index: 5;
+    border-top: 82px solid transparent;
+    z-index: 3;
+}
+
+.shapeaplusc {
+
+    position: absolute;
+    top: 2400px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-right: 400px solid #3e3e3e;
+    border-bottom: 83px solid transparent;
+    z-index: 6;
 }
 
 
@@ -332,12 +344,12 @@ ul {
 
 .shapeaminus {
     position: absolute;
-    top: 1795px;
-    left: 1010px;
+    top: 1550px;
+    left: 0px;
     width: 400px;
-    height: 1517px;
+    height: 850px;
     background-color: #3e3e3e;
-    z-index: 4;
+    z-index: 3;
 
 }
 
@@ -430,7 +442,7 @@ ul {
 
 .in {
     position: relative;
-    left: -205px;
+    left: 205px;
     margin: auto;
     width: 65%;
     height: 500px;
