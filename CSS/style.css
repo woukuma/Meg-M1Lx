@@ -305,7 +305,7 @@ ul {
     left: 0px;
     width: 0;
     height: 0;
-    border-left: 400px solid #3e3e3e;
+    border-left: 400px solid #a0a0a0;
     border-top: 82px solid transparent;
     z-index: 3;
 }
@@ -313,11 +313,11 @@ ul {
 .shapeaplusc {
 
     position: absolute;
-    top: 2396px;
+    top: 2411px;
     left: 0px;
     width: 0;
     height: 0;
-    border-right: 400px solid #3e3e3e;
+    border-right: 400px solid #a0a0a0;
     border-bottom: 83px solid transparent;
     z-index: 6;
 }
@@ -326,12 +326,12 @@ ul {
 .shapeaplusb {
 
     position: absolute;
-    top: 2612px;
+    top: 2622px;
     left: 1010px;
     width: 0;
     height: 0;
-    border-left: 400px solid #e0e0e0;
-    border-top: 83px solid transparent;
+    border-left: 430px solid #606060;
+    border-top: 90px solid transparent;
     z-index: 5;
 }
 
@@ -341,19 +341,19 @@ ul {
     top: 1546px;
     left: 0px;
     width: 400px;
-    height: 850px;
-    background-color: #3e3e3e;
+    height: 865px;
+    background-color: #a0a0a0;
     z-index: 3;
 
 }
 
 .shapeaminusb {
     position: absolute;
-    top: 2695px;
+    top: 2712px;
     left: 1010px;
-    width: 400px;
-    height: 617px;
-    background-color: #e0e0e0;
+    width: 430px;
+    height: 609px;
+    background-color: #606060;
     z-index: 5;
 
 }
@@ -371,9 +371,9 @@ ul {
 .white {
     position: absolute;
     top: 140px;
-    left: 340px;
-    width: 1000px;
-    height: 550px;
+    left: 300px;
+    width: 1100px;
+    height: 580px;
     z-index: 2;
     background-color: white;
     opacity: 0.8;
@@ -394,7 +394,7 @@ ul {
 .white h1 {
     position: relative;
     color: #000;
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 60px;
     line-height: 200%;
 
@@ -405,7 +405,7 @@ ul {
     position: absolute;
     top: 110px;
     left: 380px;
-    width: 990px;
+    width: 1045px;
     height: 550px;
     z-index: 2;
     background-color: gray;
@@ -439,7 +439,7 @@ ul {
     left: 205px;
     margin: auto;
     width: 65%;
-    height: 500px;
+    height: 515px;
     padding-top: 10px;
     background-color: #c5c5c5;
 
@@ -503,7 +503,7 @@ ul {
 }
 
 .member {
-    font-size: 40px;
+    font-size: 48px;
     color: #000;
     font-weight: 500;
     list-style: none;
@@ -542,7 +542,7 @@ ul {
     width: 100%;
     height: 910px;
     top: 25px;
-    background-color: #c0c0c0;
+    background-color: ##404040;
 
 }
 
@@ -634,10 +634,11 @@ ul {
 
 .last {
     position: relative;
+    top: 25px;
     background-color: #000;
     height: 30px;
-    width: 75%;
-    top: 1020px;
+    width: 100%;
+
 
 }
 
@@ -658,4 +659,97 @@ ul {
     position: absolute;
     left: 38rem;
     color: #fff;
+}
+
+
+
+
+
+.loop_css {
+    position: relative;
+    top: 25px;
+    display: -webkit-flex;
+    display: flex;
+    width: 100vw;
+    height: 400px;
+    left: 50%;
+    margin-left: -50vw;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.loop_css img {
+    width: auto;
+    height: 100%;
+}
+
+.loop_css img:first-child {
+    -webkit-animation: loop 50s -25s linear infinite;
+    animation: loop 50s -25s linear infinite;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+
+.loop_css img + img {
+    -webkit-animation: loop2 50s linear infinite;
+    animation: loop2 50s linear infinite;
+}
+
+
+@-webkit-keyframes loop {
+    0% {
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        transform: translateX(-200%);
+    }
+}
+
+@keyframes loop {
+    0% {
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes loop2 {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    to {
+        -webkit-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        transform: translateX(-200%);
+    }
+}
+
+
+
+
+
+.cover-img2 {
+    position: absolute;
+    left: 0;
+    top: 1560px;
+    width: 100%;
+    height: 400px;
+    background: url(../movieCover.png);
+    text-align: center;
+    z-index: 2;
 }
